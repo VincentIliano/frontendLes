@@ -1,0 +1,10 @@
+.c-global-navigation{
+    list-style-type: none;
+
+}
+
+.c-global-navigation__item{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 5px;
+}

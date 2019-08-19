@@ -1,0 +1,14 @@
+.e-header{
+    background: linear-gradient(90deg, #000000,#0f9b0f);
+    color:white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0 10px 0;
+}
+
+.e-header__title{
+    flex-grow: 2;
+}
