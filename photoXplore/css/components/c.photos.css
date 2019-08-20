@@ -1,0 +1,41 @@
+.c-photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c-photos__photo{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(160, 159, 159, 0.74);
+}
+
+.c-photos__photo figcaption{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 5px;
+    text-overflow: ellipsis;
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    bottom: 29px;
+    box-sizing: border-box;
+    opacity: 0;
+
+    transition: opacity .2s ease-in-out;
+}
+
+.c-photos__photo:hover figcaption{
+    opacity: 1;
+}
+
+.c-photos__photo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
